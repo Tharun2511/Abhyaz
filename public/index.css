@@ -1,0 +1,276 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600;800&family=Work+Sans:wght@300&display=swap");
+
+:root {
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 10px;
+  background: white;
+}
+
+.text-blue {
+  color: #2a68ff;
+}
+
+.text-grey {
+  color: #6f6f6f;
+}
+
+.text-white {
+  color: white;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.logo strong {
+  font-size: larger;
+}
+
+.navbar {
+  background-color: #2a68ff;
+  padding: 0 20px 0 20px;
+  display: flex;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.menu {
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  position: relative;
+}
+
+.menu li {
+  list-style: none;
+  padding: 0 20px;
+}
+
+.menu li text:hover {
+  font-weight: 700;
+  cursor: pointer;
+}
+
+#login,
+#register {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #2a68ff;
+  margin: 10px;
+  height: 40px;
+  width: 70px;
+  border-radius: 10px;
+}
+
+#SearchBar {
+  margin: 10px;
+  padding: 5px;
+  display: grid;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226 232 240);
+  border-radius: 10px;
+}
+
+.firstdiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: white;
+  padding: 5px 0 5px 0;
+  height: 35px;
+  width: 75vw;
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-color: #374151;
+}
+
+.firstsearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: left;
+  margin-left: 50px;
+}
+
+.icon {
+  margin-right: 30px;
+  background-color: #2a68ff;
+  height: 35px;
+  width: 7vw;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  border-radius: 8px 0 0 8px;
+}
+
+.input {
+  font-size: medium;
+  background-color: transparent;
+  color: #2a68ff;
+  width: 70vw;
+  border: none;
+}
+
+textarea:focus,
+input:focus {
+  color: #2a68ff;
+  outline: none;
+}
+
+.jobsmain {
+  display: flex;
+  margin: 30px 20px 30px 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 10 0 10 0;
+}
+
+.singleJob {
+  width: 300px;
+  height: 350px;
+  padding: 40px 20px 0 20px;
+  margin: 0 30px 30px 30px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-color: #374151;
+}
+
+.singleJob:hover {
+  background-color: #2a68ff;
+  box-shadow:
+    0 10px 15px -3px rgb(0 0 0 / 0.1),
+    0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.jobContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4;
+}
+
+.jobHeading {
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  margin-bottom: 20px;
+  height: 40px;
+  font: 700;
+}
+
+.group:hover {
+  color: white;
+}
+
+.jobContent {
+  display: flex;
+  align-items: center;
+  gap: 1;
+}
+
+.jobDesc {
+  font-size: 13px;
+  height: 100px;
+  padding-top: 20px;
+  border-top: 2px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.jobButton {
+  margin-top: 10px;
+  border-width: 1px;
+  border-color: #2a68ff;
+  background-color: white;
+  padding: 10px;
+  font-weight: 600;
+  color: #2a68ff;
+  border-radius: 8px;
+  display: block;
+}
+
+.loadDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loadButton {
+  margin: -20px 0 20px 0;
+  border-width: 1px;
+  border-color: #2a68ff;
+  background-color: white;
+  font-size: 17px;
+  height: 50px;
+  width: 160px;
+  padding: 10px;
+  font-weight: 600;
+  color: #2a68ff;
+  border-radius: 8px;
+}
+
+.loadButton:hover {
+  background-color: #2a68ff;
+  color: white;
+}
+
+.Footer {
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #2a68ff;
+}
+
+.Footer ul,
+ul {
+  margin-top: 20px;
+  display: flex;
+  line-height: 30px;
+  flex-direction: column;
+  align-content: center;
+  justify-items: center;
+}
+
+.fa-brands {
+  font-size: 20px;
+  margin: 10px;
+}
+
+.Footer li {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 45px;
+  list-style: none;
+}
+
+.contact {
+  margin-top: 40px;
+}
+
+.fa-solid {
+  margin-right: 10px;
+}
+li:hover {
+  cursor: pointer;
+}
